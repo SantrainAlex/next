@@ -1,0 +1,12 @@
+name: Workflow push
+on: push
+jobs:
+  test:
+    name: Mon premier test
+    runs-on: ubuntu-latest
+    steps:
+      - name: install
+        run: npm ci
+      - name: start
+        run: npm start
+
