@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: install
-        run: npm install
+        run: npm installnpm install
       - name: start
         run: npm start
 
